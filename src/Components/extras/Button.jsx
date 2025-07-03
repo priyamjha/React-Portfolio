@@ -1,8 +1,8 @@
-export default function Button(props) {
+export default function Button({url}) {
   return (
     <a
       className="btn btn-xl btn-outline-light"
-      href={props.url}
+      href={url}
     >
       <i className="fas fa-download me-2"></i>
       Free Download!
